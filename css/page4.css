@@ -1,0 +1,175 @@
+section#page4{
+   background-color: white;padding-top: 200px;padding-bottom: 200px;
+   justify-content: center;
+   display: flex;
+}
+section#page4 .wrap .center{
+   
+}
+section#page4 .wrap{
+   justify-content: center;background-color: white;
+}
+section#page4 .wrap h2{
+      font-size: 51px;
+      line-height: 1.4;
+      text-align: center;
+      margin-bottom: 40px;
+      }
+section#page4 .wrap p{
+      line-height: 1.6;
+      font-size: 15px;
+      text-align: center;
+      }
+section#page4 .wrap a{
+      border-bottom: 1px solid black;
+      }
+
+section#page4 .big3{
+      width: 100%;
+      height: 100vh;
+      background-color: red;
+}      
+section#page5 .big3{
+
+}
+
+section#page5 .big3 ul{
+      width: 100%;
+      height: 86vh;
+      border: 1px solid white;
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+}
+
+section#page5 .big3 ul li{
+      background-size: cover;
+      display: block;
+      height: 100vh;
+      background-color: #eee;
+
+      display: flex;
+      justify-content: center;
+      align-items: end;
+      position: relative;
+      transition: 0.5s;
+      border-left: 1px solid black;
+      border-right: 1px solid transparent;
+}
+section#page5 .big3 ul li:nth-child(1){
+            grid-column: 1;
+}
+section#page5 .big3 ul li:nth-child(2){
+            grid-column: 2;
+}
+section#page5 .big3 ul li:nth-child(3){
+            grid-column: 3;
+}
+section#page5 .big3 ul li:hover{
+   background-color:rgba(255,255,255,0.7);
+}
+
+section#page5 .big3 ul li:hover::after{
+      content:"";
+      display: block;
+      width: 100%;
+      height: 5px;
+      background-color: #333;
+      transition: 0.5s;
+}
+section#page5 .big3 ul li a{
+      height: 100vw;
+      display: block;
+      font-size: 52px;
+      color: white;
+      position: absolute;
+      top: 790px;
+      transition: 0.5s;
+      text-align: left;
+      left: 50px;
+      line-height: 53px;
+}
+section#page5 .big3 ul li:last-child a::before{
+content:"상기 이미지는 소비자의 이해를 돕기 위한 것으로 실제와 다를 수 있습니다.";
+font-size: 11px;
+position: absolute;
+left: 211px;
+top: 66px;
+width: 360px;
+}
+section#page5 .big3 ul li a p{
+      font-size: 20px;
+}
+
+section#page5 .big3 p.font10{
+      
+      bottom: 0px;
+      background-color: red;
+      transform: translateX(546px);
+}
+section#pics{
+      
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-top: 200px;
+      }
+section#pics .pics{
+display: flex;justify-content: center;
+}
+section#pics .pics span{
+      
+      display: flex;
+      flex-direction: column;
+      text-align: center;
+      align-items: center;
+}
+section#pics .pics span img{
+      width: 500px;
+      padding-right: 20px;
+      padding-bottom: 40px;
+}
+
+section#pics .pics span p{
+      
+      line-height: 1.6;
+      padding-top: 30px;
+      padding-bottom: 50px;
+}
+section#pics .pics span a{
+      border-bottom: 1px solid black;
+      width: 78px;
+}
+
+ .show1{
+background-image: url(../img/atempo01.jpg);   
+}
+
+ .show1_2{
+background-image: url(../img/atempo02.jpg);   
+}
+
+ .show1_3{
+background-image: url(../img/atempo03.jpg);   
+}
+
+ .show2{
+background-image: url(../img/binary02.jpg);
+
+}
+.show2_1{
+background-image: url(../img/binary01.jpg);
+}
+.show2_3{
+background-image: url(../img/binary03.jpg);
+}
+ .show3{
+background-image: url(../img/celesta03.jpg);
+border: 1px solid #ccc;
+}
+.show3_1{
+background-image: url(../img/celesta01.jpg);      
+}
+.show3_2{
+background-image: url(../img/celesta02.jpg);      
+}
